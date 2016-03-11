@@ -1,6 +1,8 @@
 html, body{
 	font-family: Georgia;  
 	margin:0;
+	font-size:20px;
+	color:white;
 }
 
 header{
@@ -17,12 +19,14 @@ header img{
 	border-radius:233px;
 	width:700px;
 	border: 15px solid #094154;
+	box-shadow: 0 5px 10px black;
 }
 
 .content{
-	max-width: 800px;
-	margin:0 auto;
-	padding: 0 20px;
+	background-color: #D5DBE0;
+	padding: 20px 20px;
+	margin: 20px auto;
+	max-width: 600px; 
 }
 
 img.big-image{
@@ -31,7 +35,7 @@ img.big-image{
 
 p.caption{
 	font-size: 16px;
-	color:lightgrey;
+	color:darkgray;
 	font-style: italic;
 }
 
@@ -41,14 +45,24 @@ ul{
 	margin:0;
 }
 
+.wrapper{
+	background-color:#D5DBE0;
+}
+
 a{
-	color:orange;
+	color:white;
 	text-decoration: none;
+	background-color:#5EDCE6;
+}
+
+a:hover{
+	background-color:#3F9AA1;
 }
 
 footer{
 	padding:40px 20px;
 	background-color: #E6E6E6;
+	text-color:white;
 }
 
 footer ul{
